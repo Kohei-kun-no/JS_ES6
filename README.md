@@ -1,2 +1,2 @@
-# JS_ES6
+# code-sandbox-test
 Created with CodeSandbox
