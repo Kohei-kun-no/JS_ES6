@@ -1,11 +1,9 @@
-//forEach
-
-var colors = ["red", "blue", "green"];
-
-for (let i = 0; i < colors.length; i++) {
-  console.log(colors[i]);
+function get_total_price(adult_count, child_count) {
+  let total_fee = 250 * adult_count + 100 * child_count;
+  if (adult_count + child_count >= 15) {
+    total_fee *= 0.8;
+  }
+  console.log(total_fee);
 }
 
-colors.forEach(function (color) {
-  console.log(color);
-});
+get_total_price(10, 5);
